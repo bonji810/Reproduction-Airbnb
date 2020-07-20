@@ -1,0 +1,23 @@
+.container-component{
+    margin-bottom: 40px;
+
+    >.link{
+        display: block;
+        color: $Green;
+        margin: 20px 0;
+    }
+
+    >.icon{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and(min-width: 748px){
+    .container-component{
+        width:45%;
+        &.-w30{
+            width: 30%;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.conversion-component{
+    >.conversion-item{
+        padding: 60px 30px;
+        margin-bottom: 60px;
+        height: 375px;
+        background-image: url("https://a0.muscache.com/4ea/air/v2/pictures/dbe25d99-6821-4e02-802f-fcd7aaef85bc.jpg?t=r:w1440-h960-sfit,e:fwebp-c75");
+        background-size: cover;
+
+        >.title{
+            font-size: 3.6rem;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+    }
+
+
+}
+
+@media screen and (min-width:748px){
+    .conversion-component{
+        >.conversion-item{
+            padding: 60px 120px;
+            margin: 0 80px 60px;
+            height: 440px;
+            >.title{
+                width: 430px;
+                font-size: 6.0rem;
+            }
+        }
+    }
+}

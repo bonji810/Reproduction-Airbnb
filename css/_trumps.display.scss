@@ -1,0 +1,14 @@
+._sp-none{
+    display: none;
+}
+
+@media screen and (min-width:748px){
+    ._pc-none{
+        display: none;
+    }
+
+    ._reverse{
+        flex-flow: row-reverse;
+    }
+
+}

@@ -1,0 +1,11 @@
+.list-component{
+    >.list-item{
+        >.item{
+            margin-bottom: 20px;
+            >.icon{
+                color: $Green;
+                margin-right: 10px;
+            }
+        }
+    }
+}

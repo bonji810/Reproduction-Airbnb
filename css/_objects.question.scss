@@ -1,0 +1,25 @@
+.question-component{
+    >.question-list{
+        >.item >a{
+            display: block;
+            color: $Green;
+            position: relative;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #EBEBEB;
+        }
+    }
+}
+
+@media screen and (min-width:748px){
+    .question-component{
+        display: flex;
+        justify-content: space-between;
+        >.question-list{
+            width: 50%;
+            >.item{
+                font-size: 1.8rem;
+            }
+        }
+    }
+}

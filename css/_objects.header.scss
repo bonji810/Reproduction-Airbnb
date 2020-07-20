@@ -1,0 +1,65 @@
+.header-component{
+
+    >.header-nav{
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+        height: 50px;
+        padding: 0 25px;
+        line-height: 50px;
+        background-color: #fff;
+        >.list{
+            display: flex;
+            >.item >a{
+                font-size: 1.4rem;
+                color:$Gray;
+                padding-bottom: 14px;
+            }
+    
+            >.item.selected >a{
+                color: $Green;
+                border-bottom: 2px solid $Green;
+            }
+        }
+
+        >.button{
+            position: fixed;
+            bottom: 10px;
+            right: 20px;
+        }
+    }
+}
+@media screen and (min-width:748px){
+    .header-component{
+        display: block;
+        >.header-nav{
+            position: relative;
+            display: flex;
+            height: 80px;
+            padding: 0 25px;
+            align-items: center;
+            border-bottom: 1px solid #EEEEEE;
+            >.list{
+                >.item >a{
+                    margin-right: 40px;
+                    padding-bottom: 30px;
+                }
+        
+                >.item.selected >a{
+                    color: $Green;
+                    border-bottom: 2px solid $Green;
+                }
+            }
+            >.button{
+                position: absolute;
+                top:50%;
+                transform: translateY(-50%);
+                right: 75px;
+            }
+        }
+    }
+
+
+
+}
+

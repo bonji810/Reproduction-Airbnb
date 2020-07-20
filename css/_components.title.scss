@@ -1,0 +1,51 @@
+.headline-component{
+    &.-main{
+        margin-bottom: 40px;
+        font-size: 4.0rem;
+
+        &::before{
+            content: "";
+            position: absolute;
+            left: 24px;
+            width: 60px;
+            height: 2px;
+            background-color: #767676;
+        }
+    }
+
+    &.-sub{
+        font-size: 2.4rem;
+        margin-bottom: 20px;
+
+        &.-large{
+            font-size: 4.0rem;
+            font-weight: normal;
+        }
+    }
+    
+}
+
+@media screen and (min-width:748px){
+    .headline-component{
+        &.-main{
+            margin-bottom: 95px;
+            font-size: 60px;
+            font-weight: bold;
+            text-align: center;
+    
+            &::before{
+                left: 50%;
+                transform: translateX(-50%);
+                width: 80px;
+            }
+        }
+    
+        &.-sub{
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        
+    }
+}
+
+

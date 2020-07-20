@@ -1,0 +1,51 @@
+.interview-component{
+    .image{
+        width: 100%;
+    }
+    >.interview-text{
+        >.headline{
+            color: $Yellow;
+            font-size: 60px;
+        }
+        >.contents{
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+        >.text{
+            font-size: 1.4rem;
+            color: #767676;
+            margin-bottom: 15px;
+        }
+        >.button{
+            width: 225px;
+            border: 2px solid #484848;
+            border-radius: 4px;
+            > a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                padding: 10px 22px;
+                color: #484848;
+            }
+        }
+    }
+}
+
+@media screen and(min-width:748px){
+    .interview-component{
+        display: flex;
+        justify-content: space-between;
+        >.image{
+            width: 45%;
+        }
+        >.interview-text{
+            width: 45%;
+            >.contents{
+                font-size: 3.2rem;
+            }
+            >.text{
+                font-size: 1.8rem;
+            }
+        }
+    }
+}

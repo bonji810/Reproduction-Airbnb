@@ -1,0 +1,40 @@
+.button-component{
+    appearance: none;
+    border: none;
+    background: $PinkGradation;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+
+    &.-small{
+        width: 90px;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    &.-medium{
+        width: 110px;
+        height: 50px;
+        padding: 10px 20px;
+    }
+
+    &.-long{
+        width: 325px;
+        height: 50px;
+    }
+    &.-white{
+        background: #fff;
+        color: $Gray;
+    }
+}
+
+
+@media screen and(min-width: 748px){
+    .button-component{
+    
+        &.-long{
+            width: 400px;
+        }
+    }
+
+}

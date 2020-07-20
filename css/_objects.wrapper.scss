@@ -1,0 +1,19 @@
+.section-wrapper{
+    max-width: 696px;
+    padding: 0 24px;
+    margin: 0 0 40px;
+}
+
+
+@media screen and(min-width:768px)
+{
+    .flex-wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section-wrapper{
+        max-width: 1034px;
+        margin: 0 auto 160px;
+    }
+}
